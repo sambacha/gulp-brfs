@@ -1,11 +1,11 @@
 {
   "name": "gulp-brfs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "fs.readFileSync() static asset inliner with gulp",
   "main": "index.js",
-  "repository": "https://github.com/stayradiated/gulp-brfs.git",
+  "repository": "https://github.com/sambacha/gulp-brfs.git",
   "scripts": {
-    "test": "gulp --base test --gulpfile test/gulpfile.js"
+    "test": "npx gulp --base test --gulpfile test/gulpfile.js"
   },
   "keywords": [
     "gulp",
@@ -15,9 +15,9 @@
   "author": "George Czabania",
   "license": "MIT",
   "dependencies": {
-    "brfs": "^2.0.2",
-    "through2": "^3.0.1",
-    "vinyl": "^2.2.0"
+    "brfs": "2.0.2",
+    "through2": "3.0.1",
+    "vinyl": "2.2.1"
   },
   "devDependencies": {
     "fancy-log": "^1.3.3",
